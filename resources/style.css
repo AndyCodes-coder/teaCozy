@@ -26,6 +26,10 @@ header{
 .spacer{
     height: 10px;
 }
+.left{
+    text-align: left;
+    margin: 20px;
+}
 #logo{
     font-size: 50px;
     margin-left: 10px;
@@ -42,10 +46,17 @@ header{
     max-height: 200px;
     max-width: 300px;
 }
+.locationBlock{
+    background-color: black;
+    width: 300px;
+    opacity: 1.0;
+    margin: 0 20px;
+    padding: 30px 0;
+}
 #missionContainer{
     height: 700px;
     max-width: 1200px;
-    background-image: url('https://42aliensinatrenchcoat.com/teaCozy/media/img-mission-background.webp');
+    background-image: url(../media/img-mission-background.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -71,4 +82,16 @@ header{
     width: 650px;
     margin: auto;
     justify-content: space-between;
+}
+#locations{
+    background-image: url('../media/img-locations-background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1200px;
+    height: 500px;
+    margin: 50px auto;
+}
+#locationsTable{
+    margin: auto;
 }
